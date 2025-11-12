@@ -107,7 +107,7 @@ jobs:
 
     - name: Install missing dependencies
       run: |
-        sudo apt-get update && sudo apt-get install -y libvpx7
+        npx playwright install-deps
       working-directory: system-test
 
     - name: Run Acceptance Tests
