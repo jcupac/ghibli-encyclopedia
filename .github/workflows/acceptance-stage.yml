@@ -101,13 +101,8 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v5
 
-    - name: Install Playwright Browsers
+    - name: Install Playwright Browsers and Dependencies
       run: npx playwright install --with-deps
-      working-directory: system-test
-
-    - name: Install missing dependencies
-      run: |
-        sudo apt-get update && sudo apt-get install -y libvpx8
       working-directory: system-test
 
     - name: Run Acceptance Tests
