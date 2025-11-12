@@ -1,3 +1,4 @@
+test
 # Ghibli Encyclopedia
 
 [![pages-build-deployment](https://github.com/RomainChamb/ghibli-encyclopedia/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RomainChamb/ghibli-encyclopedia/actions/workflows/pages/pages-build-deployment)
